@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-asdfasdfsadfasdasfdasdf
+
 @app.route("/auth", methods=['GET'])
 def auth_swit():
     auth_url = "https://openapi.swit.io/oauth/authorize"
